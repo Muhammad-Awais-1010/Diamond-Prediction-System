@@ -1,0 +1,96 @@
+{
+  "currency": "USD",
+  "target": "price",
+  "best_model": "Extra Trees",
+  "n_training_rows": 53741,
+  "n_original_rows": 53940,
+  "categories": {
+    "cut": [
+      "Fair",
+      "Good",
+      "Very Good",
+      "Premium",
+      "Ideal"
+    ],
+    "color": [
+      "J",
+      "I",
+      "H",
+      "G",
+      "F",
+      "E",
+      "D"
+    ],
+    "clarity": [
+      "I1",
+      "SI2",
+      "SI1",
+      "VS2",
+      "VS1",
+      "VVS2",
+      "VVS1",
+      "IF"
+    ]
+  },
+  "ranges": {
+    "carat": {
+      "min": 0.2,
+      "max": 5.01,
+      "p01": 0.24,
+      "p99": 2.17,
+      "median": 0.7
+    },
+    "depth": {
+      "min": 43.0,
+      "max": 73.6,
+      "p01": 57.9,
+      "p99": 65.55999999999985,
+      "median": 61.8
+    },
+    "table": {
+      "min": 43.0,
+      "max": 95.0,
+      "p01": 53.0,
+      "p99": 64.0,
+      "median": 57.0
+    },
+    "x": {
+      "min": 3.73,
+      "max": 10.74,
+      "p01": 4.02,
+      "p99": 8.35,
+      "median": 5.7
+    },
+    "y": {
+      "min": 3.68,
+      "max": 10.54,
+      "p01": 4.04,
+      "p99": 8.33,
+      "median": 5.71
+    },
+    "z": {
+      "min": 2.24,
+      "max": 6.98,
+      "p01": 2.48,
+      "p99": 5.15,
+      "median": 3.53
+    }
+  },
+  "price_range": {
+    "min": 326.0,
+    "max": 18823.0
+  },
+  "consistency": {
+    "median_ln_carat_per_volume": -5.096691474289571,
+    "threshold": 0.15
+  },
+  "cv_mean_rmse": 528.7259965638194,
+  "cv_mean_mae": 265.25407079657134,
+  "cv_mean_r2": 0.9823777727757325,
+  "holdout": {
+    "RMSE": 505.22715497998814,
+    "MAE": 256.4762036214446,
+    "R2": 0.9835679050859122
+  },
+  "sklearn_version": "1.8.0"
+}
